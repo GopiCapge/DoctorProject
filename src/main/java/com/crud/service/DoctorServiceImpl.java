@@ -41,8 +41,6 @@ public class DoctorServiceImpl implements DoctorService {
 		else {
 			throw new ResourseNotFoundException("Record not found with id :"+doctor.getId());
 		}
-		
-		
 	}
 
 	@Override
